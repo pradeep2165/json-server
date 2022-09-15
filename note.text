@@ -61,6 +61,23 @@ BODY:{
     "description": "This is description about product 1"
   }
 
-  
+put request
 
+PUT http://localhost:3000/products/11
+body: {
+    "id": 11,
+    "title": "Product 11",
+    "category": "furniture",
+    "price": 4000,
+    "description": "This is description about product 11"
+  }
+
+//patch for only update singe properties
+
+PATCH http://localhost:3000/products/11
+body: {
+    "price": 4000
+  }
+
+DELETE http://localhost:3000/products/11
 
