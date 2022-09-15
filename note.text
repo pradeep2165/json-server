@@ -22,3 +22,14 @@ filter by category and shipping: http://localhost:3000/products?category=electro
 sorting
 accending sort by price : http://localhost:3000/products?_sort=price
 decending sort by price : http://localhost:3000/products?_sort=price&_order=desc
+
+multiple sort : http://localhost:3000/products?_sort=price,category&_order=desc,asc
+
+pagination
+
+default / max 10 items / page display
+
+first page :http://localhost:3000/products?_page=1
+second page :http://localhost:3000/products?_page=2
+
+first page with 2 items : http://localhost:3000/products?_page=1&_limit=2
