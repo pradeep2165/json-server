@@ -45,3 +45,10 @@ fetch data with category start with latter 'f' : http://localhost:3000/products?
 
 fetch data if data incluede a praticular latter or word  like "in" : http://localhost:3000/products?q=in
 
+fetch data with reviews attached with respect to its product id : http://localhost:3000/products?_embed=reviews
+fetch data with reviews attached with respect to product id 1 : http://localhost:3000/products/1?_embed=reviews
+
+fetch reviews with product attached with respect to reviews id : http://localhost:3000/reviews?_expand=product
+fetch reviews with product attached with respect to reviews id 1 : http://localhost:3000/reviews/1?_expand=product
+
+
