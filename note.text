@@ -51,4 +51,16 @@ fetch data with reviews attached with respect to product id 1 : http://localhost
 fetch reviews with product attached with respect to reviews id : http://localhost:3000/reviews?_expand=product
 fetch reviews with product attached with respect to reviews id 1 : http://localhost:3000/reviews/1?_expand=product
 
+POST request
+POST http://localhost:3000/products
+BODY:{
+    "id": 11,
+    "title": "Product 11",
+    "category": "electronics",
+    "price": 4000,
+    "description": "This is description about product 1"
+  }
+
+  
+
 
