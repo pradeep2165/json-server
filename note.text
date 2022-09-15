@@ -81,3 +81,8 @@ body: {
 
 DELETE http://localhost:3000/products/11
 
+new routes created
+http://localhost:4000/api/v1/products
+
+fetch all product with category electronics : http://localhost:4000/api/v1/products/electronics
+
