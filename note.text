@@ -1,0 +1,5 @@
+added json-server from npm
+
+edited in package.json
+
+to run server - yarn serve-json
