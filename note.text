@@ -40,3 +40,8 @@ find data greater than equalt to 2000 and leser than equal to 6000 :
 http://localhost:3000/products?price_gte=2000&price_lte=6000
 
 fetch data with id is not equal to 1 : http://localhost:3000/products?id_ne=1
+
+fetch data with category start with latter 'f' : http://localhost:3000/products?category_like=^f
+
+fetch data if data incluede a praticular latter or word  like "in" : http://localhost:3000/products?q=in
+
