@@ -3,3 +3,10 @@ added json-server from npm
 edited in package.json
 
 to run server - yarn serve-json
+
+fetch product details : http://localhost:3000/products
+fetch reviews details : http://localhost:3000/reviews
+
+fetch by id=1
+product by id : http://localhost:3000/products/1
+reviews by id : http://localhost:3000/reviews/1
