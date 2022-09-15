@@ -33,3 +33,10 @@ first page :http://localhost:3000/products?_page=1
 second page :http://localhost:3000/products?_page=2
 
 first page with 2 items : http://localhost:3000/products?_page=1&_limit=2
+
+operator
+
+find data greater than equalt to 2000 and leser than equal to 6000 : 
+http://localhost:3000/products?price_gte=2000&price_lte=6000
+
+fetch data with id is not equal to 1 : http://localhost:3000/products?id_ne=1
