@@ -10,3 +10,15 @@ fetch reviews details : http://localhost:3000/reviews
 fetch by id=1
 product by id : http://localhost:3000/products/1
 reviews by id : http://localhost:3000/reviews/1
+
+
+filter
+
+filter by category: http://localhost:3000/products?category=electronics
+
+nested filtering
+filter by category and shipping: http://localhost:3000/products?category=electronics&discount.type=shipping
+
+sorting
+accending sort by price : http://localhost:3000/products?_sort=price
+decending sort by price : http://localhost:3000/products?_sort=price&_order=desc
